@@ -6,7 +6,7 @@ This project explores and analyzes customer shopping behavior using the [Custome
 
 ## 📂 Dataset
 
-**Source**: [Kaggle - Customer Shopping Dataset](https://www.kaggle.com/datasets/imakash3011/customer-shopping-dataset)
+**Source**: [Kaggle - Customer Shopping Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset)
 
 - **Records**: 3,900
 - **Features**: 18

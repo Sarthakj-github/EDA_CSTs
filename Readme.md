@@ -1,6 +1,6 @@
 # 🛍️ Customer Shopping Trends – EDA & Data Cleaning
 
-This project explores and analyzes customer shopping behavior using the [Customer Shopping Trends Dataset](https://www.kaggle.com/datasets/imakash3011/customer-shopping-dataset). The main goal is to clean the dataset, perform feature engineering, and conduct exploratory data analysis (EDA) to derive meaningful business insights.
+This project explores and analyzes customer shopping behavior using the [Customer Shopping Trends Dataset](https://www.kaggle.com/datasets/imakash3011/customer-shopping-dataset). The focus is on data cleaning, feature engineering, and uncovering key insights from customer purchases across multiple dimensions.
 
 ---
 
@@ -8,49 +8,67 @@ This project explores and analyzes customer shopping behavior using the [Custome
 
 **Source**: [Kaggle - Customer Shopping Dataset](https://www.kaggle.com/datasets/imakash3011/customer-shopping-dataset)
 
-- **Rows**: 3,900
-- **Columns**: 18
-- **Fields**: Gender, Age, Item Purchased, Category, Purchase Amount, Subscription Status, Payment Method, etc.
+- **Records**: 3,900
+- **Features**: 18
+- **Includes**: Gender, Age, Item Purchased, Category, Subscription Status, Purchase Amount, Discount, Promo Code, Payment Method, etc.
 
 ---
 
 ## 🧠 Objectives
 
-- Clean and preprocess categorical variables
-- Engineer useful features like total spending and promo/discount flags
-- Visualize distributions of key features (e.g., gender, category, payment method)
-- Generate correlations between numeric variables
-- Understand customer behavior patterns for business insights
+- Clean and preprocess raw categorical data
+- Convert useful columns to numeric flags (e.g., discount used, promo applied)
+- Perform detailed exploratory data analysis (EDA)
+- Visualize trends and extract actionable insights
 
 ---
 
-## 📊 Key Insights Explored
+## 🔍 Key Insights Explored
 
-- Gender-wise purchasing trends
-- Top product categories
-- Relationship between promo codes and spending
-- Distribution of payment methods
-- Correlation between review rating, past purchases, and purchase amount
+1. **Gender vs. Purchase Amount**  
+   Compare the average purchase amount between male and female customers.
+
+2. **Top Product Categories**  
+   Identify which product categories contribute the most to revenue.
+
+3. **Subscription Status vs. Total Spend**  
+   Visualize how subscription status correlates with overall spending. Subscribed customers may have a higher average spend.
+
+4. **Discounts Applied vs. Purchase Amount**  
+   Does applying a discount lead to higher purchases, or is it just a marketing tactic with no impact?
+
+5. **Shipping Type vs. Purchase Frequency**  
+   Analyze whether customers who choose faster shipping methods purchase more frequently.
+
+6. **Seasonal Trends**  
+   Create a heatmap or line plot showing seasonal trends in total sales or purchase frequency.
+
+7. **Payment Method vs. Average Spend**  
+   Compare the total purchase amount based on the payment method used.
+
+8. **Location Insights**  
+   Identify locations with the highest spend or most frequent purchases.
 
 ---
 
-## 🔧 Technologies Used
+## 🧰 Tools & Technologies
 
-- Python 🐍
+- Python
 - Pandas, NumPy
 - Seaborn, Matplotlib
-- Google Colab (for ease of sharing and running)
+- Google Colab (for seamless cloud execution)
 
 ---
 
-## ▶️ How to Run This Notebook
+## ▶️ How to Run the Notebook
 
-1. Go to [Google Colab](https://colab.research.google.com/).
-2. Upload the provided `.ipynb` file or copy the code from this repository.
-3. Upload the `shopping_trends_updated.csv` dataset from Kaggle when prompted.
-4. Run all cells step by step to see the outputs and visualizations.
+1. Open [Google Colab](https://colab.research.google.com/).
+2. Upload the `Customer_Shopping_EDA.ipynb` notebook.
+3. Upload the dataset: `shopping_trends_updated.csv`.
+4. Run all cells in sequence to reproduce the full analysis and visualizations.
 
 ---
+
 
 ## 📌 Folder Structure
 
@@ -58,19 +76,16 @@ This project explores and analyzes customer shopping behavior using the [Custome
 ├── shopping_trends_updated.csv # Dataset (to be uploaded in Colab manually)
 └── README.md # This file
 
-yaml
-Copy code
-
 ---
 
-## ✍️ Author
+## 👤 Author
 
 **Sarthak Jain**  
-B.Tech CSE (AI), Class of 2025  
-Actively applying for **Data Scientist roles**
+B.Tech CSE (AI), PSIT Kanpur (Batch 2025)  
+Aspiring Data Scientist | Passionate about ML, CV, and EDA
 
 ---
 
-## ⭐️ If you find this useful...
+## ⭐️ Feedback
 
-Feel free to fork, clone, or star the project. Contributions and feedback are welcome!
+Feel free to fork, clone, or open issues for suggestions. Contributions are welcome!

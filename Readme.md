@@ -73,7 +73,9 @@ This project explores and analyzes customer shopping behavior using the [Custome
 ## 📌 Folder Structure
 
 ├── Customer_Shopping_EDA.ipynb # Main Jupyter Notebook (Google Colab compatible)
+
 ├── shopping_trends_updated.csv # Dataset (to be uploaded in Colab manually)
+
 └── README.md # This file
 
 ---

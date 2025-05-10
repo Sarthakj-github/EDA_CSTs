@@ -1,6 +1,6 @@
 # 🛍️ Customer Shopping Trends – EDA & Data Cleaning
 
-This project explores and analyzes customer shopping behavior using the [Customer Shopping Trends Dataset](https://www.kaggle.com/datasets/imakash3011/customer-shopping-dataset). The focus is on data cleaning, feature engineering, and uncovering key insights from customer purchases across multiple dimensions.
+This project explores and analyzes customer shopping behavior using the Customer Shopping Trends Dataset. The focus is on data cleaning, feature engineering, and uncovering key insights from customer purchases across multiple dimensions.
 
 ---
 

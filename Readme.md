@@ -90,7 +90,7 @@ Aspiring Data Scientist | Passionate about ML, CV, and EDA
 
 ## License
 
-[MIT License](LISENCE)
+[MIT License](LICENSE)
 
 ## ⭐️ Feedback
 
